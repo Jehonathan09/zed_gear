@@ -11,7 +11,7 @@ const Hero = () => {
                 Find, book, or rent a car - quickly and easily!
             </h1>
 
-            <p className="hero__subtitle">
+            <p className="hero__subtitle"> 
                 Streamline your car rental experience with our effortless booking process.
             </p>
 
@@ -20,6 +20,12 @@ const Hero = () => {
                 containerStyles="bg-primary-blue text-white rounded-full mt-10" 
             handleClick={handleScroll}         
             />
+        </div>
+
+        <div className="hero__image-container">
+            <div className="hero__image">
+                <Image src=""/>
+            </div>
         </div>
     </div>
   )
